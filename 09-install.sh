@@ -18,3 +18,5 @@ if [ $? -eq 0 ]; then
     exit1
 else
     echo " Installing mySQL is...SUCCESS"
+fi
+
