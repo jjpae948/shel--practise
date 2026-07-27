@@ -10,5 +10,5 @@ fi
 
  # echo "iam continuing.."
 
- echo "Installing mySQL server"
+ echo "Installing mySQL "
  dnf install mysql-server -y
