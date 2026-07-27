@@ -9,18 +9,18 @@ if [ $USERID -ne 0 ]; then
 fi
 
 # echo "Iam continuing..."
-dnf installed mysql
+dnf installed nginx
 
 if [ $? -eq 0 ]; then
-    echo "MySQL is already installed...SKIPPING"
+    echo "nginx is already installed...SKIPPING"
 else
-  echo "Installing MySQL"
-  dnf install mysql -y
+  echo "Installing nginx"
+  dnf install nginx -y
 
   if [ $? -ne 0 ]; then
-    echo " Installing MySQL is... FAILED"
+    echo " Installing nginx is... FAILED"
     exit 1
   else
-    echo " Installing MySQL is...SUCCESS"
+    echo " Installing nginx is...SUCCESS"
    fi
 fi
