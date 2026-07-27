@@ -1,6 +1,4 @@
-#!/bin/bash/
-
+#!/bin/bash
 
 ##### special vars #####
-echo 'All variables passed to the script: $@"
-
+echo "All variables paased to sprit: $@"
