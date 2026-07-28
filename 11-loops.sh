@@ -1,6 +1,6 @@
 #!bin/bash
 
 for number in {1..,100}
-dc
+do
      echo $number
 done        
